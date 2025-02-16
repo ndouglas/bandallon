@@ -1,0 +1,23 @@
+{
+  "name": "@bandallon/server",
+  "version": "0.0.1",
+  "description": "Server for Bandallon",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx tsx src/index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ndouglas/bandallon"
+  },
+  "author": "Nathan Douglas <bandallon@tenesm.us>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.7.3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "@eslint/eslintrc": "^3"
+  }
+}
