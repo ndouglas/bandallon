@@ -11,7 +11,7 @@
     "build": "cd client && npm run build",
     "start": "cd client && npm run start",
     "lint": "cd client && npm run lint",
-    "serve": "cd server && npm run serve",
+    "serve": "cd server && npm run start:dev",
     "test": "jest"
   },
   "devDependencies": {
