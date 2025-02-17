@@ -1,11 +1,12 @@
 {
-  "name": "@bandallon/cli",
+  "name": "@bandallon/testing",
   "version": "0.0.1",
-  "description": "CLI interface for Bandallon",
+  "description": "Testing additions for Bandallon",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "cli": "npx tsx src/index.ts",
     "test": "jest --passWithNoTests",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
