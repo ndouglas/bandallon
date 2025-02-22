@@ -18,6 +18,13 @@ describe('AppController (e2e)', () => {
   });
 
   it('/ (GET)', () => {
+    const httpServer = app.getHttpServer();
+    console.log('httpServer', httpServer);
+    //const address = httpServer.address();
+    //console.log('address', address);
+    //const port = httpServer.address().port;
+    //console.log('port', port);
+    //console.log(`Server is running on port ${port}`);
     return request(app.getHttpServer())
       .get('/')
       .expect(200)
